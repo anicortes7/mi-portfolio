@@ -1,0 +1,42 @@
+---
+layout: default
+title: logicamenteana
+---
+   <div class="container-fluid pt-0 px-0">
+      <div class="row">
+        <div id="carousel" class="carousel slide col px-0" data-bs-ride="carousel">
+          <div class="carousel-indicators my-0">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             <a href="diciembre.html"><img src="img/carousel/diciembre.jpg" class="d-block w-100" alt=".."></a>
+             <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+              <a href="experiencias/analogicas/pinamar2021.html"><img src="img/carousel/pinamar.jpg" class="d-block w-100" alt=".."></a>
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+             <a href="experiencias/analogicas/cumple.html"><img src="img/carousel/cumpleaños.jpg" class="d-block w-100" alt=".."></a>
+             <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+              <a href="experiencias/analogicas/mardel.html"><img src="img/carousel/mar del plata.jpg" class="d-block w-100" alt=".."></a>
+              <div class="carousel-caption d-none d-md-block"></div>
+             </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">siguiente</span>
+          </button>
+        </div>
+      </div>
+    </div>
