@@ -9,9 +9,12 @@
 @font-face {
     font-family: 'matroska';
     src: url('../fonts/matroska.woff2') format('woff2'),
-         url('../fonts/matroska.woff') format('woff');
   }
-  
+@font-face {
+    font-family: 'marola';
+    src: url('../fonts/marola.woff2') format('woff2'),
+  }
+ 
 * {
     font-family:"DotGothic16";
     box-sizing: border-box;
@@ -163,3 +166,8 @@ div.social {
     padding: 10px;
     border: 1px solid #ccc;
   }
+#proximamente {
+    font-family: 'marola', sans-serif;
+    font-size: 12rem;
+    color: var(--verde);
+}
